@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <script defer src="./script.js"></script>
     
 
@@ -52,6 +52,63 @@
             <div class="secc2b">
                 <div class="caja2">
                     <h2 class="paquete">Seleccione su paquete</h2>
+                    <form action="">
+                        <div class="inputConteiner">
+                            <label for="origen ">Origen</label> 
+                             <input type="text" placeholder="Ingrese su lugar de Origen" id="origen" name="origen"class="origen">
+                            </div>
+                        
+                            <div class="inputConteiner">
+                            <label for="destino"> Destino</label> 
+                            <select name="Destino" id="Destino" name="Destino"> 
+                            <option value="Salta"> Salta</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Cataratas">Cataratas</option>
+                            <option value="Bariloche">Bariloche</option>
+                            </select>
+                            </div>
+                            
+            
+                
+                        <div class="inputConteiner">
+                             <label for="salida">Fecha de salida</label >
+                            <section name="salida" id="salida">
+                            <input type="date" placeholder="salida" id="fecha" name="fecha" class="origen">
+                             </select>
+                            </div>
+            
+                        <div class="inputConteiner">
+                                <label for="llegada">Fecha de llegada</label >
+                               <section name="llegada" id="llegada">
+                               <input type="date" placeholder="Fecha de llegada" id="fechas" name="fechas" class="origen">
+                                </select>
+                               </div>
+            
+            
+                        
+                        <div class="inputConteiner">
+                                <label for="pasajeros">Cantidad de Pasajeros</label> 
+                                <select name="Pasajeros" id=" pasajeros"> 
+                                <option value="1"> 1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="+ de 8">+ de 8</option>
+                        </div>
+                                
+                            </select>
+            
+                                <input type="submit" value="Enviar" class="boton-enviar">
+            
+            
+            
+                        </form>
+                    </div>
                     
                 </div>
             </div>

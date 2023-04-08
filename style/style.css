@@ -119,8 +119,8 @@ nav a:hover{
  }
 
  .caja2{
-    width: 415px;
-    height: 415px;
+    width: 500px;
+    height: 500px;
     background-color: #207cce;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 30px;
@@ -132,7 +132,47 @@ nav a:hover{
     display: block;
  }
 
- 
+ main form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 25px;
+    font-size: 14px;
+    }
+    
+    main form .inputContainer input, select 
+    {
+        width: 250px;
+        height: 30px;
+        background-color: rgba(6, 6, 148, 0.772);
+        color: white;
+        margin-top: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .origen
+    {
+        width: 250px;
+        height: 30px;
+        background-color: rgba(197, 197, 225, 0.845);
+        color: rgb(19, 15, 15);
+        margin-top: 5px;
+        border-radius: 5px;
+     }
+    
+    
+    .boton-enviar {
+    width: 130px;
+    height: 30px;
+    background-color: rgba(6, 6, 148, 0.772);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px; }
  
 
  .formulario label{
@@ -154,12 +194,15 @@ nav a:hover{
 
 .imgarg{
     width: 90%;
+    height: 245px;
     margin-top: 20px;
     margin-left: 30px;
+    
 }
 
 .imgcari{
     width: 90%;
+    height: 245px;
     margin-top: 10px;
     margin-left: 30px;
 }
@@ -292,7 +335,7 @@ main{
     color: #d4d4ac;
     display: block;
     margin-bottom: 15px;
-    transition: all  .3s ease;
+    transition: all .3s ease;
 }
 .footerNos ul li:hover {
     color: aliceblue;
@@ -304,7 +347,7 @@ main{
     color: #d4d4ac;
     display: block;
     margin-bottom: 15px;
-    transition: all  .3s ease;
+    transition: all .3s ease;
 }
 .sTitle {
     font-size: 18px;
@@ -319,7 +362,7 @@ main{
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: all  .3s ease;
+    transition: all .3s ease;
     
 }
 .sang:hover {
@@ -382,5 +425,3 @@ main{
         margin-bottom: 30px;
     }
 }
-
-
